@@ -1,0 +1,29 @@
+* {
+    padding : 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.nav-bar-cat {
+    display: flex;
+    gap : 10px;
+}
+
+.nav-bar-cat p:hover {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
